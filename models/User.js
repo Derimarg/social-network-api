@@ -1,4 +1,5 @@
 const { Schema, model } = require("mongoose");
+const moment = require("moment");
 
 const UserSchema = new Schema(
   {
@@ -14,12 +15,12 @@ const UserSchema = new Schema(
       unique: true,
       match: [/.+@.+\..+/, "PLease fill a valid email address"],
     },
-    // thoughts: [
-    //   {
-    //     type: Schema.Types.ObjectId,
-    //     ref: "Thought",
-    //   },
-    // ],
+    thoughts: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Thought",
+      },
+    ],
     // friends: [
     //   {
     //     type: Schema.Types.ObjectId,
