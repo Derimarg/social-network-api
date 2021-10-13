@@ -3,7 +3,7 @@ const moment = require("moment");
 
 const UserSchema = new Schema(
   {
-    userName: {
+    username: {
       type: String,
       unique: true,
       required: "Username is required",
