@@ -14,18 +14,18 @@ const UserSchema = new Schema(
       unique: true,
       match: [/.+@.+\..+/, "PLease fill a valid email address"],
     },
-    thoughts: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "Thought",
-      },
-    ],
-    friends: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "User",
-      },
-    ],
+    // thoughts: [
+    //   {
+    //     type: Schema.Types.ObjectId,
+    //     ref: "Thought",
+    //   },
+    // ],
+    // friends: [
+    //   {
+    //     type: Schema.Types.ObjectId,
+    //     ref: "User",
+    //   },
+    // ],
   },
   {
     toJSON: {
@@ -35,9 +35,9 @@ const UserSchema = new Schema(
   }
 );
 
-UserSchema.virtual("friendCount").get(function () {
-  return this.friends.length;
-});
+// UserSchema.virtual("friendCount").get(function () {
+//   return this.friends.length;
+// });
 
 const User = model("User", UserSchema);
 
