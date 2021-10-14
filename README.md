@@ -48,21 +48,22 @@ As a social media startup I want an API for my social network that uses a NoSQL 
 
 ## Description
 
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
+This is a social media startup for a social network that uses a `NoSQL database`, so that a website can handle large amounts of unstructured data, will follow the next conditions:
 
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia Core for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia Core
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+- Entering the command to invoke the application then the server is started and the `Mongoose models` are synced to the MongoDB database.
+
+- Opening the `API GET routes` in Insomnia Core for users and thoughts, then the data for each of these routes is displayed in a `formatted JSON`.
+
+- Testing `API POST, PUT, and DELETE routes` in Insomnia Core, then I will able to successfully create, update, and delete users and thoughts in my database.
+
+- Testing `API POST and DELETE routes` in Insomnia Core, then I will able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
+
+<br />
+<br />
 
 ### Example:
+
+<br/>
 
 ![Demo](./assets/images/demo.gif)
 
@@ -146,7 +147,6 @@ Contributions are part of this open source project. Any contributions you make a
 For additional help or questions about collaboration, contact me at: derimargray@gmail.com
 
 - GitHub - [Derimarg](https://github.com/Derimarg/)
-
 - Linkedin - [Derimar Gray](https://www.linkedin.com/in/derimar-gray-676275132/)
 - Project Repository Link: https://github.com/Derimarg/social-network-api
 - Video demo:
