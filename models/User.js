@@ -1,9 +1,8 @@
 const { Schema, model } = require("mongoose");
-const moment = require("moment");
 
 const UserSchema = new Schema(
   {
-    username: {
+    userName: {
       type: String,
       unique: true,
       required: "Username is required",
@@ -13,7 +12,7 @@ const UserSchema = new Schema(
       type: String,
       required: "Email address is required",
       unique: true,
-      match: [/.+@.+\..+/, "PLease fill a valid email address"],
+      match: [/.+@.+\..+/, "Please fill a valid email address"],
     },
     thoughts: [
       {

@@ -12,7 +12,7 @@ const ReactionSchema = new Schema(
       required: true,
       maxLength: 280,
     },
-    username: {
+    userName: {
       type: String,
       required: true,
     },
@@ -45,7 +45,7 @@ const ThoughtSchema = new Schema(
       get: (createdAtVal) =>
         moment(createdAtVal).format("MMM Do, YYYY [at] hh:mma"),
     },
-    username: {
+    userName: {
       type: String,
       required: true,
     },
