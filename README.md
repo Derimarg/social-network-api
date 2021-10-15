@@ -18,7 +18,7 @@ As a social media startup I want an API for my social network that uses a NoSQL 
 <a href="#how-to-download"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="#example">View Demo</a>
+<a href="https://drive.google.com/file/d/1d1_xRVM4pICvlMN2oAms59YM8WaXf1yp/view?usp=sharing">View Demo</a>
 .
 <a href="https://github.com/Derimarg/social-network-api/issues">Report Bug</a>
 ·
@@ -73,7 +73,11 @@ This is a social media startup for a social network that uses a `NoSQL database`
 
 <br />
 
-![Demo](./public/assets/images/thought.gif)
+![Demo](./public/assets/images/thought-1.gif)
+
+<br />
+
+![Demo](./public/assets/images/thought-2.gif)
 
 <br />
 
@@ -160,7 +164,7 @@ For additional help or questions about collaboration, contact me at: derimargray
 - GitHub - [Derimarg](https://github.com/Derimarg/)
 - Linkedin - [Derimar Gray](https://www.linkedin.com/in/derimar-gray-676275132/)
 - Project Repository Link: https://github.com/Derimarg/social-network-api
-- Video demo:
+- Video demo: https://drive.google.com/file/d/1d1_xRVM4pICvlMN2oAms59YM8WaXf1yp/view?usp=sharing
 
 [Back To Top](#social-network-api)
 
