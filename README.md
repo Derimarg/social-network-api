@@ -65,7 +65,18 @@ This is a social media startup for a social network that uses a `NoSQL database`
 
 <br/>
 
-![Demo](./assets/images/demo.gif)
+![Demo](./public/assets/images/user.gif)
+
+<br />
+
+![Demo](./public/assets/images/friend.gif)
+
+<br />
+
+![Demo](./public/assets/images/thought.gif)
+
+<br />
+
 
 ## Technologies
 
@@ -106,7 +117,7 @@ This is a social media startup for a social network that uses a `NoSQL database`
 
 ## Prerequisites
 
-Before of using this application, is require to install dependencies, run the following command in your terminal:
+Before of using this application, is require to install <a href="https://www.mongodb.com/">MongoDB</a> in your computer, and run mongo shell, to install dependencies run the following command in your terminal:
 
 ```
 npm i
